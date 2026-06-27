@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bari Real Estate India | Luxury Homes & Properties</title>
+  <meta name="description" content="Explore luxury homes, premium properties, and exclusive real estate listings in India and globally with Bari Real Estate India." />
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <article class="top-nav">
+    <div class="container">
+      <ul class="quick-lnks">
+        <li><a href="properties.html?region=ras-al-khaimah">Ras Al-Khaimah</a></li>
+        <li><a href="properties.html?region=australia">Australia</a></li>
+        <li><a href="properties.html?region=dubai">Dubai</a></li>
+        <li><a href="properties.html?region=india">India</a></li>
+        <li><a href="properties.html?region=london">London</a></li>
+        <li><a href="properties.html?region=new-york">New York</a></li>
+        <li><a href="properties.html?region=singapore">Singapore</a></li>
+        <li><a href="properties.html?region=vineyards">Vineyards</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <!-- Main Navigation Header -->
+  <header>
+    <article class="mid-nav">
+      <div class="container">
+        <div class="mainhead">
+          <div class="logoimg">
+            <a href="index.html" class="logo-link">
+              <span class="logo-title">BARI</span>
+              <span class="logo-subtitle">REAL ESTATE</span>
+            </a>
+          </div>
+          
+          <button type="button" class="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav">
+            <span class="closeNav">X</span>
+            <ul class="header-menu">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="track-record.html">Track Record</a></li>
+              <li>
+                <a href="properties.html">Properties</a>
+                <div class="drop-dwn">
+                  <ul>
+                    <li><a href="properties.html?region=india">India Listings</a></li>
+                    <li><a href="properties.html?region=international">International</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="newsroom.html">Insights</a>
+                <div class="drop-dwn">
+                  <ul>
+                    <li><a href="newsroom.html">Luxury Defined Blog</a></li>
+                    <li><a href="newsroom.html#magazine">Magazine</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="newsroom.html">Newsroom</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="user-info">
+            <a href="#" class="search-ic" id="showButton">
+              <!-- Inline SVG for Search Icon -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </header>
+
+  <!-- Global Settings Side Drawer -->
+  <div class="contentRight contMenuFlag" id="siteMenuFlag">
+    <div class="globSet">
+      <h3>Global Settings</h3>
+      <span class="close" id="closeFlag">X</span>
+    </div>
+    <div class="globSettin">
+      <div class="searchSuggesTitle">Units of Measure</div>
+      <div class="btn-group">
+        <button type="button" class="active">Metric</button>
+        <button type="button">U.S.</button>
+      </div>
+      
+      <div class="searchSuggesTitle" style="margin-top: 30px;">Currency</div>
+      <div class="btn-group" style="flex-direction: column;">
+        <button type="button" class="active" style="text-align: left; padding: 10px;">Indian Rupee (INR)</button>
+        <button type="button" style="text-align: left; padding: 10px;">American Dollar (USD)</button>
+        <button type="button" style="text-align: left; padding: 10px;">British Pound (GBP)</button>
+        <button type="button" style="text-align: left; padding: 10px;">Euro (EUR)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div id="intro" class="bg-image">
+    <div class="mask">
+      <div class="container">
+        <div class="hero-search-container">
+          <div class="l-home">
+            <h3>Search Luxury Homes For Sale</h3>
+          </div>
+          <div class="form-group ui-widget">
+            <input type="search" id="searchInput" placeholder="Location, Address, District Or Zip">
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Search Suggestions Box -->
+    <div class="searContent" id="resultDiv">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div>
+          <div class="searchSuggesTitle">Countries/Territories</div>
+          <div class="searchSuggestData"><a href="properties.html?region=india"><strong>India</strong></a></div>
+          <div class="searchSuggestData"><a href="properties.html?region=dubai">Dubai</a></div>
+          <div class="searchSuggestData"><a href="properties.html?region=london">London</a></div>
+        </div>
+        <div>
+          <div class="searchSuggesTitle">Locations</div>
+          <div class="searchSuggestData"><a href="properties.html?q=Delhi">New Delhi, <strong>India</strong></a></div>
+          <div class="searchSuggestData"><a href="properties.html?q=Goa">Assagao, Goa, <strong>India</strong></a></div>
+          <div class="searchSuggestData"><a href="properties.html?q=Gurgaon">Suncity, Gurgaon, <strong>India</strong></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Properties Showcase -->
+  <section class="proListing-sec section-padding">
+    <div class="container">
+      <div class="sec-title">
+        <h2>Featured Estates</h2>
+        <p>Distinctive Homes in India</p>
+      </div>
+
+      <div class="listings-grid">
+        <!-- Property 1: Assagao, Goa -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=Assagao">
+            <div class="card" data-region="india" data-type="villa">
+              <div class="slider-wrapper" id="slider1">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/goa.jpg" alt="Assagao Goa">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>Ultra Luxury Villa, Assagao</p>
+              </div>
+              <div class="inter-details">
+                <h4>Villa | 1,196 SYD(Land Area) | 6,000 SF(Built-Up Area)</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Property 2: Suncity -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=Suncity">
+            <div class="card" data-region="india" data-type="penthouse">
+              <div class="slider-wrapper" id="slider2">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/suncity.jpg" alt="Suncity">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>Sophisticated Modern Mansion, Suncity</p>
+              </div>
+              <div class="inter-details">
+                <h4>6BD | 6BA | Luxury Residence</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Property 3: Malcha Marg -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=Malcha-Marg">
+            <div class="card" data-region="india" data-type="apartment">
+              <div class="slider-wrapper" id="slider3">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/malchamarg.jpg" alt="Malcha Marg">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>First Floor Residence, Malcha Marg</p>
+              </div>
+              <div class="inter-details">
+                <h4>3BD | 3BA | 1,800 SF First Floor</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Property 4: Greater Kailash - I -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=Greater-Kailash">
+            <div class="card" data-region="india" data-type="apartment">
+              <div class="slider-wrapper" id="slider4">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/gk.jpg" alt="Greater Kailash">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>Exclusive Apartments, Greater Kailash - I</p>
+              </div>
+              <div class="inter-details">
+                <h4>4BD | 4BA | 800 SF - 4,000 SF</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Property 5: Panchsheel Park (Multi Image Slider Demo) -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=Panchsheel-Park">
+            <div class="card" data-region="india" data-type="builder-floor">
+              <div class="slider-wrapper" id="slider5">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/panchsheel.jpg" alt="Panchsheel Park">
+                </div>
+                <!-- Images for Slider script in main.js -->
+                <input type="hidden" value="assets/panchsheel.jpg">
+                <input type="hidden" value="assets/panchsheel_2.jpg">
+                <input type="hidden" value="assets/panchsheel_3.jpg">
+                <input type="hidden" value="assets/panchsheel_4.jpg">
+                
+                <button class="prevBtn" type="button">&lt;</button>
+                <button class="nextBtn" type="button">&gt;</button>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>Premium Builder Floor, Panchsheel Park</p>
+              </div>
+              <div class="inter-details">
+                <h4>4BD | 5BA | 1,200 SF - 5,000 SF</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Property 6: South City - I -->
+        <div class="card-wrapper">
+          <a href="contact.html?property=South-City">
+            <div class="card" data-region="india" data-type="land">
+              <div class="slider-wrapper" id="slider6">
+                <div class="slider">
+                  <img class="sliderImage" src="assets/southcity.jpg" alt="South City">
+                </div>
+              </div>
+              <div class="card-body">
+                <h4>India</h4>
+                <p>Redevelopment Plot, South City - I</p>
+              </div>
+              <div class="inter-details">
+                <h4>Landed | 1,000 SYD(Land Area)</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Forecast & News Section -->
+  <section class="insights-sec section-padding">
+    <div class="container">
+      <div class="sec-title">
+        <h2>Luxury Forecast & Insights</h2>
+        <p>Market perspectives and lifestyle trends</p>
+      </div>
+
+      <div class="forecast-grid">
+        <div class="card" style="flex-direction: row; align-items: center; padding: 20px; gap: 20px;">
+          <img src="assets/forecast.jpg" alt="Global Forecast" style="width: 40%; height: 180px; object-fit: cover; border-radius: 4px;">
+          <div>
+            <h4 style="color: var(--accent-gold); font-size: 11px; letter-spacing: 2px; text-transform: uppercase;">Global Market</h4>
+            <h3 style="font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; margin: 10px 0 15px;">Luxury Real Estate Forecast 2026</h3>
+            <a href="newsroom.html" class="gold-accent" style="font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">Read Forecast &rarr;</a>
+          </div>
+        </div>
+
+        <div class="card" style="flex-direction: row; align-items: center; padding: 20px; gap: 20px;">
+          <img src="assets/magazine_vol1.jpg" alt="Bari Magazine" style="width: 40%; height: 180px; object-fit: cover; border-radius: 4px;">
+          <div>
+            <h4 style="color: var(--accent-gold); font-size: 11px; letter-spacing: 2px; text-transform: uppercase;">Magazine</h4>
+            <h3 style="font-family: var(--font-serif); font-size: 1.4rem; font-weight: 400; margin: 10px 0 15px;">Bari Luxury Magazine Volume 1</h3>
+            <a href="newsroom.html#magazine" class="gold-accent" style="font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">View Magazine &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="insights-grid">
+        <!-- Blog 1 -->
+        <div class="insight-card">
+          <a href="newsroom.html#castle">
+            <div class="insight-img"><img src="assets/castles.png" alt="Castle"></div>
+            <h6>Luxury Revamped: 5 Castles with Modern Interiors</h6>
+          </a>
+        </div>
+        <!-- Blog 2 -->
+        <div class="insight-card">
+          <a href="newsroom.html#river">
+            <div class="insight-img"><img src="assets/riverfront.png" alt="River"></div>
+            <h6>A Home on the River: 5 Serene Riverfront Retreats</h6>
+          </a>
+        </div>
+        <!-- Blog 3 -->
+        <div class="insight-card">
+          <a href="newsroom.html#farm">
+            <div class="insight-img"><img src="assets/farm.png" alt="Farm"></div>
+            <h6>Farm-to-Table Living: 5 Homes with Gardens and Groves</h6>
+          </a>
+        </div>
+        <!-- Blog 4 -->
+        <div class="insight-card">
+          <a href="newsroom.html#escape">
+            <div class="insight-img"><img src="assets/countryside.png" alt="Country"></div>
+            <h6>Summertime Escapes: 5 Grand Countryside Homes</h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Magazine Showcase Section -->
+  <section class="magazine-sec section-padding" id="magazine">
+    <div class="container">
+      <div class="magazine-grid">
+        <div class="magazine-info">
+          <h3>Bari Luxury Defined Magazine</h3>
+          <p>Explore editorial profiles on spectacular homes, lifestyle insights, regional market spotlights, and details on global real estate trends in our seasonal publication.</p>
+          <a href="contact.html?interest=magazine" class="btn-premium">Request a Copy</a>
+        </div>
+        <div class="magazine-img">
+          <img src="assets/luxury_defined.jpg" alt="Magazine Cover" style="width: 100%; max-width: 480px; margin-left: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Newsletter Signup -->
+        <div class="stay-info">
+          <h2>STAY INFORMED</h2>
+          <p id="subscribe_msg">Subscribe to get notifications on new luxury listings and market updates.</p>
+          <div class="user-info">
+            <input type="email" id="subscribe_email" placeholder="E-mail address">
+            <button type="button" id="subscribe_btn">
+              <!-- SVG Arrow -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c5a880" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Contact Links -->
+        <div class="add-info">
+          <a href="tel:+919810167747">
+            <!-- Telephone Icon SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c5a880" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span>(+91) 98 101 67747</span>
+          </a>
+          <a href="mailto:sales@barirealestateindia.com">
+            <!-- Email Icon SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c5a880" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>sales@barirealestateindia.com</span>
+          </a>
+          <p>
+            <!-- Map Location SVG -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c5a880" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>4th Floor, Statesman House<br>Barakhamba Road<br>New Delhi 110001<br>India</span>
+          </p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div>
+          <h3 class="follow-us">Follow Us</h3>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Logo representation -->
+        <div class="footr-logo">
+          <a href="index.html" class="footer-logo-link">
+            <span class="footer-logo-title">BARI</span>
+            <span class="footer-logo-subtitle">REAL ESTATE</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footChris text-center">
+        <p>All information provided herein has been obtained from sources believed reliable, but may be subject to errors, omissions, change of price, prior sale, or withdrawal without notice. Bari Real Estate India and its affiliates make no representation, warranty or guarantee as to accuracy of any information contained herein. You should consult your advisors for an independent verification of any properties.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
